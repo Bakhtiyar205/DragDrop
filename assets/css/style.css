@@ -1,0 +1,38 @@
+.item {
+    width:100px;
+    height: 100px;
+    background-color: teal;
+}
+
+#drag-elem1{
+    background-color: red;
+}
+#drag-elem2{
+    background-color: teal;
+}
+#drag-elem3{
+    background-color: hotpink;
+}
+
+#drop-area {
+    width:800px;
+    height: 300px;
+    background-color: bisque;
+    float: right;
+    display: flex;
+}
+
+#upload {
+    font-size: 50px;
+    color:hotpink;
+    cursor: pointer;
+
+}
+    .upload-area {
+    background-color: bisque;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
